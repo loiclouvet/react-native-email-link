@@ -59,9 +59,9 @@ export function isAppInstalled(app) {
  * @returns {Promise<String|null>}
  */
 export function askAppChoice(
-  title = "Open mail app",
-  message = "Which app would you like to open?",
-  cancelLabel = "Cancel"
+  title = "Consulter sa messagerie",
+  message = "Quelle application souhaitez-vous ouvrir ?",
+  cancelLabel = "Annuler"
 ) {
   return new Promise(async resolve => {
     let availableApps = [];
